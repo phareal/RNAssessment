@@ -6,6 +6,7 @@ import Dashboard from '../screens/Dashboard';
 import { navigationRef } from './NavigationService';
 import ROUTES from '../misc/routes';
 import DriverScorePage from '../screens/DriverScorePage';
+import AboutPage from '../screens/About';
 
 
 const Stack = createStackNavigator();
@@ -24,6 +25,11 @@ export default function Main(){
                 <Stack.Screen
                     name={ROUTES.DriverScorePage}
                     component={DriverScorePage}
+                    options={{ headerShown: true }}
+                />
+                <Stack.Screen
+                    name={ROUTES.AboutPage}
+                    component={AboutPage}
                     options={{ headerShown: true }}
                 />
             </Stack.Navigator>

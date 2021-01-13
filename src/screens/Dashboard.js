@@ -116,7 +116,9 @@ export default function Dashboard(props){
                                     </Card>
 
                                 </TouchableOpacity>
-                                <TouchableOpacity onPress={() => alert("dsd")} style={{
+                                <TouchableOpacity onPress={() =>
+                                    navigation.navigate(ROUTES.AboutPage)
+                                } style={{
                                     height: SIZECONSTANTS.homeCardButton,
                                     marginTop: 50,
                                 }}>

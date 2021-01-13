@@ -1,6 +1,7 @@
 const ROUTES = {
     DashBoardScreen : 'Dashboard',
-    DriverScorePage : 'DriverScorePage'
+    DriverScorePage : 'DriverScorePage',
+    AboutPage : 'AboutPage',
 }
 
 export default ROUTES
